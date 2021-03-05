@@ -1,0 +1,49 @@
+* appliquer un procédé permettant d'installer ou mettre à jour le site web sur un environnement donné
+* déploiement manuel via ftp (dépôt de dossier)
+* déploiement automatisé via des services (deploybot etc)
+
+https://www.blogduwebdesign.com/deployer-son-application-en-production-les-bonnes-methodes-a-connaitre/
+
+*** Serveless ***
+
+Problèmes renconcontrés:
+
+cadre: application ou déploiement d'application où on contrôle les requêtes http
+
+* Maintenir les serveurs même sans requêtes à traiter 
+* Responsable de la maintenance des applications
+* Responsable d'appliquer des patches de sécurité
+* Ajuster les serveurs avec les charges
+
+Solution et définition : 
+
+Architecture serverless ( Fournisseur AWS, Azure, Google Cloud)
+
+functions : 
+    AWS: AWS Lambda
+    Microsoft Azure: Azure Functions
+    Google Cloud: Cloud Functions
+
+
+ * Responsable de l’exécution d’un morceau de code en allouant de manière dynamique les ressources
+ * Manage à travers le code exécuté des conteneurs d'état qui déclenchent plusieurs événements (https requests, bdd, files d'attentes, cron etc)
+ 
+ 
+ Dans un monde serverless: 
+ 
+ *  Nos applications sont structurées sous formes de fonctions
+ 
+ *  Pour le déploiement et autres opéations on utilise principalement des microservices
+ 
+ *  Functions exécutées généralement en stateless 
+ 
+ *  Executions des fonctions en démarrage à froid ou Cold Start
+ 
+https://serverless-stack.com/chapters/fr/what-is-serverless.html
+ 
+https://serverless-stack.com/chapters/fr/what-is-aws-lambda.html
+
+
+** Pour les services de messagerie : sqs **
+
+https://aws.amazon.com/fr/sqs/

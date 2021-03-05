@@ -1,0 +1,23 @@
+Scalability
+
+* capacité d'un disposiitf à s'adapter à la demande
+* évolution par rapport au nombre de demandes
+* pour les applications bdd
+
+Deux types d'évolutivité:
+
+* Horizontale
+ - ajout des ordinateurs pour faire face à une demande accrue
+ - répartition des taches sur les différents ordinateurs
+ - utilisation du type de répartition avec une grappe de serveurs
+
+* verticale
+ - Un ordinateur qui peut accepter une grande capacité de mémoire, de nombreux processeurs et une carte mère (64 go, 16 cartes mères...)
+ 
+* Architecturale
+ - Prévoit d'emblée une application pour qu'elle puisse être répartie sur plusieurs machines sans réécriture.
+
+
+https://fr.wikipedia.org/wiki/Scalability
+
+https://fr.wikipedia.org/wiki/R%C3%A9partition_de_charge

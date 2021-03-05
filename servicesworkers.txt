@@ -1,0 +1,5 @@
+* Utilisé dans les services offline en premier 
+* Un petit fichier JavaScript et jouer le rôle de proxy entre votre application, le réseau et le navigateur
+* Intercepte les services réseaux pour manager les réponses sur le service local (en off ou en on)
+
+http://mobibot.io/blog/1162/cest-quoi-un-service-worker-petite-definition.html#

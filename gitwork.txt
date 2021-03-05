@@ -1,0 +1,7 @@
+git reference
+
+https://matthieu-moy.fr/cours/formation-git/advanced-git-slides.pdf
+
+https://git-scm.com/
+
+https://doc.ubuntu-fr.org/tutoriel/script_shell
