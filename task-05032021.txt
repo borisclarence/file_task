@@ -16,3 +16,5 @@
 - Notion de scss 
  * Css avec grid 40 min
  * Scss 50 min
+ 
+ END OF GAME
