@@ -1,0 +1,18 @@
+- Notion de service dans une infrastructure de prod
+ * Scale Fait
+ * Service worker Fait
+ * Deployement Fait
+ * Serveless Fait
+ * Sqs Fait
+ 
+- Notion de git 
+ * Operation git 20 min
+ * Operation git advanced 30min
+ 
+- Notion de Vue 
+ * Basics 50 min
+ * State management 50 min
+ 
+- Notion de scss 
+ * Css avec grid 40 min
+ * Scss 50 min
